@@ -13,10 +13,18 @@ var questions = [
 var questionElement = '<h3>%data%</h3>';
 var answerElement = '<p>%data%</p>'
 
-var question, formattedQuestion, formattedAnswer;
+var faq = document.getElementById('faq')
+
+var question, formattedQuestion, formattedAnswer, elem;
 for(var i = 0; i < questions.length; i++) {
 	question = questions[i];
-	formattedQuestion = questionElement.replace('%data%', question.question)
-	formattedAnswer = answerElement.replace('%data%', question.answer);
-	$('#faq').append(formattedQuestion + formattedAnswer);
+	formattedQuestion = document.createElement('div');
+	formattedQuestion.innerHTML = questionElement.replace('%data%', question.question);
+
+	formattedAnswer = document.createElement('p');
+	formattedAnswer.innerHTML = answerElement.replace('%data%', question.answer);
+
+
+	faq.appendChild(formattedQuestion)
+	faq.appendChild(formattedAnswer);
 }
