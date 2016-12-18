@@ -1,0 +1,47 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+	border: 1px solid black;
+}
+
+.mainTitle {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+	.mainTitle h1 {
+		margin-bottom: 0;
+	}
+
+.list-horizontal li{
+	display: inline;
+}
+
+.characteristics {
+	display: flex;
+	justify-content: center;
+}
+
+	.characteristics ul {
+		padding-left: 0px;
+	}
+
+
+.contacts {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 100px;
+}
+
+
+
+
+
+
+
+
