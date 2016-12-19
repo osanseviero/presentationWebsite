@@ -1,5 +1,6 @@
 * {
 	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
 }
 
 header {
@@ -42,6 +43,20 @@ header {
 	font-size: 36px;
 }
 
+#skills {
+	padding-top: 30px;
+	margin: 0 auto; 
+	width: 85%;
+}
+
+#skills div {
+	display: inline;
+}
+
+.skill {
+	width: 30%;
+	margin: 0 15px 0 15px;
+}
 
 
 

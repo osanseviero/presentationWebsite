@@ -1,0 +1,6 @@
+{
+  "name": "polymer-project",
+  "dependencies": {
+    "paper-card": "PolymerElements/paper-card#^1.0.0"
+  }
+}
