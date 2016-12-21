@@ -7,18 +7,19 @@ var skills = [
 		
 	},
 	{
-		'name' : 'Video Game Devopment',
+		'name' : 'Video Game Development',
 		'description' : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate perferendis quos architecto reprehenderit quam pariatur dolor obcaecati veritatis ad soluta impedit reiciendis, eos nulla officia similique, voluptatum esse quas magnam.",
 		'skills' : ['Unity', 'Vuforia'],
 		'image' : 'http://placehold.it/300x150/55E1FF/000000'
 		
 	},
 	{
-		'name' : 'Video Game Devopment',
+		'name' : 'Video Game Development',
 		'description' : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate perferendis quos architecto reprehenderit quam pariatur dolor obcaecati veritatis ad soluta impedit reiciendis, eos nulla officia similique, voluptatum esse quas magnam.",
 		'skills' : ['Unity', 'Vuforia'],
 		'image' : 'http://placehold.it/300x150/63FF51/000000'
-	}
+	},
+
 ];
 
 
